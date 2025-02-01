@@ -29,60 +29,7 @@
 3. **مسیر افزاینده (Decoder)**: بازسازی نقشه سگمنتیشن با جزئیات دقیق
 4. **شاخه کلاسه‌بندی**: تشخیص نوع تومور همزمان با Segmentation
 
----
 
-## 🚀 چگونه شروع کنیم؟
-### پیش‌نیازها
-- Python 3.8+ با کتابخانه‌های:
-  ```bash
-  pip install torch==2.0.1 torchvision monai nibabel matplotlib
-آموزش مدل از صفر
-python
-Copy
-from unet_3d import MultiTaskUNet
-from data_loader import BraTSDataset
-
-# 1. آماده‌سازی داده‌ها
-dataset = BraTSDataset(root_dir='data/', transform=...)
-
-# 2. تعریف مدل
-model = MultiTaskUNet(
-    in_channels=4, 
-    out_channels_seg=3, 
-    out_channels_cls=2
-)
-
-# 3. شروع آموزش (مطابق سلول ۲۱ نوت‌بوک)
-trainer = AdvancedTrainer(
-    model,
-    seg_loss=DiceFocalLoss(),
-    cls_loss=WeightedCrossEntropy()
-)
-trainer.train(epochs=100, batch_size=8)
-📊 نتایج قابل تکرار
-ارزیابی روی ۲۰۰ نمونه تست:
-شاخص	دقت سگمنتیشن	دقت کلاسه‌بندی	زمان استنتاج
-مقدار مقاله	89.7%	92.3%	4.2 ثانیه
-پیاده‌سازی ما	91.2%	93.8%	2.8 ثانیه
-💡 نکات کلیدی پیاده‌سازی
-انتخاب تابع ضرر ترکیبی:
-
-python
-Copy
-class DiceFocalLoss(nn.Module):
-    def __init__(self, alpha=0.7):
-        super().__init__()
-        self.alpha = alpha  # وزن برای Dice Loss
-        
-    def forward(self, pred, target):
-        dice_loss = 1 - dice_score(pred, target)
-        focal_loss = FocalLoss()(pred, target)
-        return self.alpha * dice_loss + (1 - self.alpha) * focal_loss
-بهینه‌سازی حافظه: استفاده از Mixed Precision Training
-
-افزونگی داده‌ها: چرخش ۳بعدی، نویز گاوسی، کراپ تصادفی
-
-❓ اگر مشکلی پیش آمد...
 خطای رایج: عدم تطابق ابعاد در Decoder
 راه حل:
 
