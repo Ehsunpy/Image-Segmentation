@@ -1,10 +1,10 @@
 
 <div align="center">
   <br/>
-  <<div style="width:100%;height:0;padding-bottom:40%;position:relative;"><iframe src="https://giphy.com/embed/XCxjzveGa47DOd8zuq" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/angkasapuraairports-angkasapura1-ap1-XCxjzveGa47DOd8zuq">via GIPHY</a></p>
+  <img src="https://media.giphy.com/media/XCxjzveGa47DOd8zuq/giphy.gif" width="300">
   <h1>🩺 تشخیص هوشمند تومورهای مغزی با U-Net پیشرفته</h1>
   <p>پیاده‌سازی عملی مقاله منتشرشده در ResearchGate با بهبودهای کلیدی</p>
-  
+
   [![Paper PDF](https://img.shields.io/badge/Paper-PDF-red?logo=adobe-acrobat-reader)](https://www.researchgate.net/publication/381065551_Deep_multi-task_learning_structure_for_segmentation_and_classification_of_supratentorial_brain_tumors_in_MR_images)
   [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ehsunpy/Image-Segmentation/blob/main/U-NET-V3.ipynb)
   [![Demo](https://img.shields.io/badge/CODE-blueviolet)](https://ehsunpy.github.io/brain-tumor-demo)
