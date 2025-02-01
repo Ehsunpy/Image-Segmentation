@@ -1,8 +1,7 @@
-markdown
-Copy
+
 <div align="center">
   <br/>
-  <img src="https://media.giphy.com/media/hqU2KkjW5bE2vmuZhr/giphy.gif" width="150px">
+  <img src="[https://media.giphy.com/media/hqU2KkjW5bE2vmuZhr/giphy.gif](https://media.giphy.com/media/XCxjzveGa47DOd8zuq/giphy.gif?cid=790b76114tcbhfiesn6gx28y9if3dlgn37zhiubenv14tfbe&ep=v1_gifs_search&rid=giphy.gif&ct=g)" width="150px">
   <h1>🩺 تشخیص هوشمند تومورهای مغزی با U-Net پیشرفته</h1>
   <p>پیاده‌سازی عملی مقاله منتشرشده در ResearchGate با بهبودهای کلیدی</p>
   
