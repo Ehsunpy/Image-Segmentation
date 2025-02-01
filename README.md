@@ -6,7 +6,7 @@ Copy
   <h1>🩺 تشخیص هوشمند تومورهای مغزی با U-Net پیشرفته</h1>
   <p>پیاده‌سازی عملی مقاله منتشرشده در ResearchGate با بهبودهای کلیدی</p>
   
-  [![Paper PDF](https://img.shields.io/badge/LINK-JURNAL-PDF-red?logo=adobe-acrobat-reader)](https://www.researchgate.net/publication/381065551_Deep_multi-task_learning_structure_for_segmentation_and_classification_of_supratentorial_brain_tumors_in_MR_images)
+  [![Paper PDF](https://img.shields.io/badge/Paper-PDF-red?logo=adobe-acrobat-reader)](https://www.researchgate.net/publication/381065551_Deep_multi-task_learning_structure_for_segmentation_and_classification_of_supratentorial_brain_tumors_in_MR_images)
   [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ehsunpy/Image-Segmentation/blob/main/U-NET-V3.ipynb)
   [![Demo](https://img.shields.io/badge/CODE-blueviolet)](https://ehsunpy.github.io/brain-tumor-demo)
 </div>
