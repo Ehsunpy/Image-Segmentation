@@ -1,7 +1,7 @@
 
 <div align="center">
   <br/>
-  <img src="<iframe src="https://giphy.com/embed/XCxjzveGa47DOd8zuq" width="480" height="192" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/angkasapuraairports-angkasapura1-ap1-XCxjzveGa47DOd8zuq">via GIPHY</a></p>" width="150px">
+  <<div style="width:100%;height:0;padding-bottom:40%;position:relative;"><iframe src="https://giphy.com/embed/XCxjzveGa47DOd8zuq" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/angkasapuraairports-angkasapura1-ap1-XCxjzveGa47DOd8zuq">via GIPHY</a></p>
   <h1>🩺 تشخیص هوشمند تومورهای مغزی با U-Net پیشرفته</h1>
   <p>پیاده‌سازی عملی مقاله منتشرشده در ResearchGate با بهبودهای کلیدی</p>
   
